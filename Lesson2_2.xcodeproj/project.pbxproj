@@ -13,6 +13,7 @@
 		750291132CE8728500619C5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750291112CE8728500619C5B /* Main.storyboard */; };
 		750291152CE8728A00619C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750291142CE8728A00619C5B /* Assets.xcassets */; };
 		750291182CE8728A00619C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750291162CE8728A00619C5B /* LaunchScreen.storyboard */; };
+		750291202CE8D43400619C5B /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7502911F2CE8D43300619C5B /* PersonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		750291142CE8728A00619C5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		750291172CE8728A00619C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		750291192CE8728A00619C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7502911F2CE8D43300619C5B /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7502910B2CE8728500619C5B /* AppDelegate.swift */,
 				7502910D2CE8728500619C5B /* SceneDelegate.swift */,
 				7502910F2CE8728500619C5B /* ViewController.swift */,
+				7502911F2CE8D43300619C5B /* PersonViewController.swift */,
 				750291112CE8728500619C5B /* Main.storyboard */,
 				750291142CE8728A00619C5B /* Assets.xcassets */,
 				750291162CE8728A00619C5B /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				750291102CE8728500619C5B /* ViewController.swift in Sources */,
 				7502910C2CE8728500619C5B /* AppDelegate.swift in Sources */,
 				7502910E2CE8728500619C5B /* SceneDelegate.swift in Sources */,
+				750291202CE8D43400619C5B /* PersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
