@@ -14,10 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let buttonAction: UIAction = UIAction { [weak self] _ in
-            self?.descriptionTextView.text = "Indian Larry (born Lawrence DeSmedt; April 28, 1949 – August 30, 2004) was an American motorcycle builder and artist, stunt rider, and biker. He first became known as Indian Larry in the 1980s when he was riding the streets of New York City on a chopped Indian motorcycle. Respected as an old school chopper builder, Larry sought greater acceptance of choppers being looked upon as an art form. He became interested in hot rods and motorcycles at an early age and was a fan of Von Dutch and Ed Big Daddy Roth, whom he would later meet in California."
-            
+            self?.descriptionTextView.text = "Indian Larry (born Lawrence DeSmedt; April 28, 1949 – August 30, 2004) was an American motorcycle builder and artist, stunt rider, and biker. He first became known as Indian Larry in the 1980s when he was riding the streets of New York City on a chopped Indian motorcycle. Respected as an old school chopper builder, Larry sought greater acceptance of choppers being looked upon as an art form. He became interested in hot rods and motorcycles at an early age and was a fan of Von Dutch and Ed \"Big Daddy\" Roth, whom he would later meet in California."
         }
-        
         let leftIndent: CGFloat = 30
         let widthOf = view.frame.width - leftIndent - leftIndent
         
@@ -78,7 +76,6 @@ class ViewController: UIViewController {
                           height: 52))
         view.addSubview(newPasswordField)
 
-        
         // Кнопки
         //Выровнял кнопку "редактировать" по правому краю. Чтобы сделать, как на превью, достаточно в поле width значение заменить на 147.
         let editButton = ourButton(text: "редактировать",
@@ -86,7 +83,6 @@ class ViewController: UIViewController {
         view.addSubview(editButton)
         let saveButton = ourButton(text: "Сохранить", place: CGRect(x: leftIndent, y: view.frame.maxY - 105, width: widthOf, height: 55), action: buttonAction)
         view.addSubview(saveButton)
-        
     }
 
     private func ourImage(name: String, place: CGRect, round: Bool = false) -> UIImageView {
@@ -98,7 +94,6 @@ class ViewController: UIViewController {
         image.clipsToBounds = true
         return image
     }
-    
     private func ourLabel(text: String, place: CGRect, bold: Bool = false) -> UILabel {
         let label = UILabel()
         label.text = text
@@ -121,7 +116,6 @@ class ViewController: UIViewController {
         button.clipsToBounds = true
         return button
     }
-    
     private func ourTextField(text: String, place: CGRect) -> UITextField {
         let textField = UITextField()
         textField.placeholder = text
@@ -136,7 +130,6 @@ class ViewController: UIViewController {
         textField.frame = place
         return textField
     }
-    
     private func ourTextView(place: CGRect) -> UITextView {
         let textView = UITextView()
         textView.font = UIFont.systemFont(ofSize: 16)
@@ -148,6 +141,5 @@ class ViewController: UIViewController {
         textView.textContainer.lineFragmentPadding = 10
         return textView
     }
-
 }
 
